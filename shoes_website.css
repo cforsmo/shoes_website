@@ -137,6 +137,8 @@ a {
 .buttons .womens-cta:hover {
   background-color: white;
   color: #a06c41;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .buttons .mens-cta {
@@ -150,6 +152,8 @@ a {
 .buttons .mens-cta:hover {
   background-color: white;
   color: #a06c41;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer {
