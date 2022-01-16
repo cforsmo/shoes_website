@@ -1,0 +1,135 @@
+body {
+  margin: 1.5 em;
+  font-family: 'Poppins';
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../shoes_website/images/shoes2.jpg);
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  -webkit-animation: introLoad 2s forwards;
+          animation: introLoad 2s forwards;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: unset;
+  width: 100;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px auto;
+      grid-template-columns: 180px auto;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar nav a {
+  padding: .1em 1em;
+}
+
+.navbar nav .primary-nav {
+  margin: 0;
+}
+
+.navbar nav .secondary-nav {
+  margin: 0;
+  float: right;
+}
+
+.hero .container {
+  text-align: center;
+  margin: 5 auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+.heading {
+  text-align: center;
+  padding: .6em 6em 0em;
+  margin-bottom: 0;
+  font-size: 5rem;
+}
+
+.print {
+  margin: auto;
+  margin-bottom: 0em;
+  font-size: 1rem;
+}
+
+.buttons {
+  text-align: center;
+  padding: 4em;
+  margin: 5em;
+}
+
+.buttons .womens-cta {
+  border: 3px white;
+  border-style: solid;
+  border-radius: 3em;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.buttons .mens-cta {
+  border: 3px white;
+  border-style: solid;
+  border-radius: 3em;
+  padding: 1em;
+  font-weight: bold;
+}
+/*# sourceMappingURL=shoes_website.css.map */
