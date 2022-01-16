@@ -14,7 +14,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../shoes_website/images/shoes2.jpg);
+  background: url(/images/shoes2.jpg);
   background-size: cover;
   background-position-x: 20%;
   background-position-y: 20%;
@@ -48,14 +48,15 @@ a {
   font-weight: bold;
 }
 
+.logo:hover {
+  opacity: .8;
+}
+
 .navbar .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 180px auto;
-      grid-template-columns: 180px auto;
-  -webkit-box-pack: unset;
-      -ms-flex-pack: unset;
-          justify-content: unset;
+  -ms-grid-columns: 500px auto;
+      grid-template-columns: 500px auto;
 }
 
 .navbar nav {
@@ -86,9 +87,16 @@ a {
   margin: 0;
 }
 
+.navbar nav .primary-nav:hover {
+  opacity: .8;
+}
+
 .navbar nav .secondary-nav {
   margin: 0;
-  float: right;
+}
+
+.navbar nav .secondary-nav:hover {
+  opacity: .8;
 }
 
 .hero .container {
@@ -109,6 +117,7 @@ a {
   margin: auto;
   margin-bottom: 0em;
   font-size: 1rem;
+  text-decoration: underline;
 }
 
 .buttons {
@@ -125,11 +134,26 @@ a {
   font-weight: bold;
 }
 
+.buttons .womens-cta:hover {
+  background-color: white;
+  color: #a06c41;
+}
+
 .buttons .mens-cta {
   border: 3px white;
   border-style: solid;
   border-radius: 3em;
   padding: 1em;
   font-weight: bold;
+}
+
+.buttons .mens-cta:hover {
+  background-color: white;
+  color: #a06c41;
+}
+
+footer {
+  font-style: italic;
+  font-size: 0.75rem;
 }
 /*# sourceMappingURL=shoes_website.css.map */

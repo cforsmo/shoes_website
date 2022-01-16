@@ -15,7 +15,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../shoes_website/images/shoes2.jpg);
+    background: url(/images/shoes2.jpg);
     background-size: cover;
     background-position-x: 20%;
     background-position-y: 20%;
@@ -40,12 +40,16 @@ a {
 
     .logo {
         font-weight: bold;
+
+        &:hover {
+            opacity: .8;
+        }
   }
 
     .navbar .container {
         display: grid;
-        grid-template-columns: 180px auto;
-        justify-content: unset;
+        grid-template-columns: 500px auto;
+        
   }
 
     .navbar nav {
@@ -55,10 +59,12 @@ a {
         height: auto;
         width: 100%;
         padding: 0;
+        
 
     ul { 
         display: flex;
         list-style-type: none;
+        
     }
 
     a{
@@ -67,12 +73,18 @@ a {
 
     .primary-nav {
         margin: 0;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 
     .secondary-nav {
         margin: 0;
-        float: right;
-      ;
+
+        &:hover {
+            opacity: .8;
+        }
     }
   }
 
@@ -93,6 +105,7 @@ a {
     margin: auto;
     margin-bottom: 0em;
     font-size: 1rem;
+    text-decoration: underline;
 }
 
 .buttons {
@@ -100,12 +113,18 @@ a {
     padding: 4em;
     margin: 5em;
 
+
     .womens-cta {
         border: 3px white;
         border-style: solid;
         border-radius: 3em;
         padding: 1em;
         font-weight: bold;
+
+        &:hover {
+            background-color: white;
+            color: rgb(160, 108, 65);
+        }
    }
 
     .mens-cta {
@@ -115,9 +134,18 @@ a {
         padding: 1em;
         font-weight: bold;
 
+        &:hover {
+            background-color: white;
+            color: rgb(160, 108, 65);
+        }
     }
+
+
    
 }
 
-
+footer {
+    font-style: italic;
+    font-size: 0.75rem;
+}
 
