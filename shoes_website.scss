@@ -31,6 +31,7 @@ a {
     justify-content: space-between;
     position: unset;
     width: 100;
+    position: relative;
     }
 
 .container {
@@ -40,51 +41,44 @@ a {
 
     .logo {
         font-weight: bold;
+        margin-top: -10px;
 
         &:hover {
-            opacity: .8;
+            opacity: .7;
+            transition: 0.5s;
         }
-  }
-
-    .navbar .container {
-        display: grid;
-        grid-template-columns: 500px auto;
-        
   }
 
     .navbar nav {
-        display: flex;
-        justify-content: space-between;
-        position: unset;
+        position: fixed;
+        width: 66%;
+        right: 0;
+        top: 0;
         height: auto;
-        width: 100%;
-        padding: 0;
+        padding: 1em;
         
-
     ul { 
         display: flex;
         list-style-type: none;
+        margin: 0px;
+
+    li {
+        a {
+            position: relative;
+            padding: .1em 1em;
         
-    }
-
-    a{
-        padding: .1em 1em;
-    }
-
-    .primary-nav {
-        margin: 0;
-
         &:hover {
-            opacity: .8;
+            opacity: .7;
+            transition: 0.5s;
+        }
         }
     }
+}
 
     .secondary-nav {
-        margin: 0;
-
-        &:hover {
-            opacity: .8;
-        }
+        position: relative;
+        float: right;
+        margin-top: -25px;
     }
   }
 
@@ -147,6 +141,8 @@ a {
 }
 
 footer {
+    position: relative;
+    top: 95%;
     font-style: italic;
     font-size: 0.75rem;
 }

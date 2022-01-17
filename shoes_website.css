@@ -35,6 +35,7 @@ a {
           justify-content: space-between;
   position: unset;
   width: 100;
+  position: relative;
 }
 
 .container {
@@ -46,30 +47,22 @@ a {
 
 .logo {
   font-weight: bold;
+  margin-top: -10px;
 }
 
 .logo:hover {
-  opacity: .8;
-}
-
-.navbar .container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 500px auto;
-      grid-template-columns: 500px auto;
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .navbar nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: unset;
+  position: fixed;
+  width: 66%;
+  right: 0;
+  top: 0;
   height: auto;
-  width: 100%;
-  padding: 0;
+  padding: 1em;
 }
 
 .navbar nav ul {
@@ -77,26 +70,24 @@ a {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  margin: 0px;
 }
 
-.navbar nav a {
+.navbar nav ul li a {
+  position: relative;
   padding: .1em 1em;
 }
 
-.navbar nav .primary-nav {
-  margin: 0;
-}
-
-.navbar nav .primary-nav:hover {
-  opacity: .8;
+.navbar nav ul li a:hover {
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .navbar nav .secondary-nav {
-  margin: 0;
-}
-
-.navbar nav .secondary-nav:hover {
-  opacity: .8;
+  position: relative;
+  float: right;
+  margin-top: -25px;
 }
 
 .hero .container {
@@ -157,6 +148,8 @@ a {
 }
 
 footer {
+  position: relative;
+  top: 95%;
   font-style: italic;
   font-size: 0.75rem;
 }
