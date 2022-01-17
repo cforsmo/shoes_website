@@ -83,21 +83,24 @@ a {
   }
 
 .hero .container {
+    position: relative;
     text-align: center;
-    margin: 5 auto;
     display: grid;
 }
 
 .heading{
     text-align: center;
+    position: relative;
     padding: .6em 6em 0em;
     margin-bottom: 0;
-    font-size: 5rem;
+    font-size: 500%;
+    margin-top: 2em;
+    
 }
 
 .print {
     margin: auto;
-    margin-bottom: 0em;
+    margin-bottom: -2em;
     font-size: 1rem;
     text-decoration: underline;
 }
@@ -105,7 +108,7 @@ a {
 .buttons {
     text-align: center;
     padding: 4em;
-    margin: 5em;
+    margin: 3em;
 
 
     .womens-cta {
@@ -142,7 +145,6 @@ a {
 
 footer {
     position: relative;
-    top: 95%;
     font-style: italic;
     font-size: 0.75rem;
 }
