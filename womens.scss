@@ -1,0 +1,154 @@
+
+body {
+    margin: 1.5 em;
+    font-family: 'Poppins';
+
+}
+
+a {
+    font-size: 1.1rem;
+    color: black;
+
+}
+
+.navbar {
+    display: flex; 
+    padding: 1em;
+    justify-content: space-between;
+    position: unset;
+    width: 100;
+    position: relative;
+    }
+
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
+    .logo {
+        font-weight: bold;
+        margin-top: -10px;
+        position: fixed;
+        text-decoration: none;
+
+
+
+        &:hover {
+            opacity: .7;
+            transition: 0.5s;
+            display: inline-block;
+        }
+  }
+
+    .navbar nav {
+        position: fixed;
+        width: 66%;
+        right: 0;
+        top: 0;
+        height: auto;
+        padding: 1em;
+        
+    ul { 
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+
+
+    li {
+        a {
+            position: relative;
+            padding: .1em 1em;
+            text-decoration: none;
+
+        
+        &:hover {
+            opacity: .7;
+            transition: 0.5s;
+            text-decoration: underline;
+
+        }
+        }
+    }
+}
+
+    .secondary-nav {
+        position: relative;
+        float: right;
+        margin-top: -25px;
+    }
+  }
+
+.left_nav {
+    width: 200px;
+    
+    
+    .elements {
+        list-style-type: none;
+        padding: .1em 1em;
+        position: fixed;
+        line-height: 3.5em;
+    
+    }
+
+    .view {
+        text-decoration: underline;
+    }
+
+    .elements a {
+        border: none;
+        font-size: .9em;
+        text-decoration: none;
+
+
+        &:hover {
+            opacity: .7;
+            transition: 0.5s;
+            text-decoration: underline;
+            
+        }
+        
+    }
+}
+
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    float: right;
+    margin-top: 70px;
+    
+  }
+
+    .pics {
+        height: 450px;
+        width: 300px;
+        margin: 5px;
+        border-radius: .5em;
+        
+
+        &:hover {
+            opacity: .5;
+            transition: 0.7s;
+            
+        }
+    }
+        .pic_text {
+            font-size: .9rem;
+            text-align: right;
+            color: black;  
+        }
+        
+        .small_text {
+            font-size: .8rem;
+        }
+
+a {
+    text-decoration: none;
+//BUG - shoe name and 20 looses hover when pointer is at the top of the image
+    &:hover {
+        opacity: .5;
+        transition: 0.7s;
+    }
+}         
+            
+        

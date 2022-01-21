@@ -1,0 +1,152 @@
+body {
+  margin: 1.5 em;
+  font-family: 'Poppins';
+}
+
+a {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: unset;
+  width: 100;
+  position: relative;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  margin-top: -10px;
+  position: fixed;
+  text-decoration: none;
+}
+
+.logo:hover {
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.navbar nav {
+  position: fixed;
+  width: 66%;
+  right: 0;
+  top: 0;
+  height: auto;
+  padding: 1em;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.navbar nav ul li a {
+  position: relative;
+  padding: .1em 1em;
+  text-decoration: none;
+}
+
+.navbar nav ul li a:hover {
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.navbar nav .secondary-nav {
+  position: relative;
+  float: right;
+  margin-top: -25px;
+}
+
+.left_nav {
+  width: 200px;
+}
+
+.left_nav .elements {
+  list-style-type: none;
+  padding: .1em 1em;
+  position: fixed;
+  line-height: 3.5em;
+}
+
+.left_nav .view {
+  text-decoration: underline;
+}
+
+.left_nav .elements a {
+  border: none;
+  font-size: .9em;
+  text-decoration: none;
+}
+
+.left_nav .elements a:hover {
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.shoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 75%;
+  float: right;
+  margin-top: 70px;
+}
+
+.pics {
+  height: 450px;
+  width: 300px;
+  margin: 5px;
+  border-radius: .5em;
+}
+
+.pics:hover {
+  opacity: .5;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.pic_text {
+  font-size: .9rem;
+  text-align: right;
+  color: black;
+}
+
+.small_text {
+  font-size: .8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .5;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+/*# sourceMappingURL=womens.css.map */

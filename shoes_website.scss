@@ -46,6 +46,7 @@ a {
         &:hover {
             opacity: .7;
             transition: 0.5s;
+            
         }
   }
 
@@ -89,6 +90,8 @@ a {
 }
 
 .heading{
+    display: flex;
+    justify-content: center;
     position: fixed;    
     height: 200%;
     text-align: center;    
@@ -99,6 +102,8 @@ a {
 }
 
 .collection {
+    display: flex;
+    justify-content: center;
     position: fixed;    
     height: 100%;
     text-align: center;    
@@ -114,6 +119,8 @@ a {
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
     text-align: center;
     position: fixed;
     width: 93%;
